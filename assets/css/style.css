@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to right, #043748, #0e4152);
+}
+
+.logo {
+  width: 20%;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #043748;
+  background-image: linear-gradient(to right, #043748, #0e4152);
+  display: flex;
+
+  align-items: center;
+  padding: 20px 0px;
+  width: 1400px;
+}
+
+p {
+  color: white;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+.boton {
+  background-color: red;
+  margin: 0;
+  padding: 15px;
+  border-radius: 50px;
+  color: rgb(202, 202, 202);
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  transition: all 0.3s ease;
+}
+
+.boton:hover {
+  background-color: rgba(255, 0, 0, 0.555);
+}
+
+ul li a {
+  color: rgb(202, 202, 202);
+  text-decoration: none;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  color: rgb(0, 174, 255);
+  transition: 0.3s;
+}
+.container {
+  height: 650px;
+  display: flex;
+}
+.hero {
+  display: flex;
+  height: 550px;
+
+  padding-top: 50px;
+  width: 1400px;
+}
+
+.contenidoIzquierda {
+  align-content: center;
+  flex: 1;
+}
+
+.contenidoDerecha {
+  display: flex;
+  align-content: center;
+  flex: 1;
+  justify-content: left;
+  text-align: end;
+  padding-right: 50px;
+}
+
+.burbuja {
+  transform: translate(-5%, -8%);
+}
+
+.contenidoDerecha .burbuja {
+  animation: float 3s ease-out infinite;
+}
+
+@keyframes float {
+  50% {
+    transform: translateY(5px);
+    transform: translateX(0px);
+  }
+}
+
+h1 {
+  font-size: 45px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: white;
+}
+
+.contenidoIzquierda p {
+  font-size: 20px;
+
+  font-weight: 400;
+  font-style: normal;
+  margin: 50px 0px;
+  color: white;
+  line-height: 40px;
+}
+
+.btnContacto {
+  background-color: red;
+  padding: 15px;
+  border-radius: 50px;
+  color: rgb(202, 202, 202);
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 900;
+  font-style: normal;
+  transition: all 0.3s ease;
+}
+
+.btnContacto:hover {
+  background-color: rgba(255, 0, 0, 0.555);
+  transform: scale(2);
+}
+
+.containerEducacion {
+  background-color: antiquewhite;
+  border: solid red 5px;
+}
+
+.contenidoEducacion {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  padding: 35px;
+}
+
+h2 {
+  font-size: 35px;
+
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+}
+.contenidoEducacion p {
+  font-size: 16px;
+
+  font-weight: 400;
+  font-style: normal;
+  padding: 30px 0px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.containerDatos {
+  text-align: center;
+  background-color: rgb(48, 48, 48);
+  padding: 50px 0px;
+}
+
+h3 {
+  font-size: 40px;
+
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+
+h4 {
+  font-size: 25px;
+
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.tarjeta {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(48, 48, 48);
+  border: solid 2px rgb(255, 255, 255);
+  border-radius: 40px;
+  text-align: center;
+  align-content: center;
+}
+
+.cifras {
+  font-size: 90px;
+
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+}
+
+.datos {
+  font-size: 15px;
+
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+}
+
+.containerTarjetas {
+  display: flex;
+  width: 1400px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.viaje {
+  display: flex;
+  flex-direction: column;
+  padding: 65px 0;
+}
+
+.containerViaje {
+  display: flex;
+  width: 1400px;
+  padding-top: 50px;
+}
+
+.recuadro {
+  border: solid rgb(0, 174, 255) 2px;
+  width: 600px;
+  padding: 15px;
+  margin: 15px 0;
+  height: 150px;
+}
+
+.fecha {
+  font-size: 12px;
+
+  font-weight: 500;
+  font-style: normal;
+  color: chartreuse;
+  padding-bottom: 10px;
+}
+
+.titulo {
+  font-size: 20px;
+
+  font-weight: 700;
+
+  font-style: normal;
+  padding-bottom: 15px;
+}
+
+.descripcion {
+  font-size: 15px;
+
+  font-weight: 500;
+  font-style: normal;
+  line-height: 25px;
+}
+
+.portafolio {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+  background-color: rgb(48, 48, 48);
+}
+
+.ejemplos {
+  display: flex;
+  padding-top: 50px;
+  gap: 100px;
+}
+.galeria {
+  display: flex;
+  flex-direction: column;
+  border: solid 3px rgb(0, 174, 255);
+  transition: all 0.3s ease-in-out;
+}
+
+.galeria:hover {
+  border: solid 3px chartreuse;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.galeria img {
+  width: 250px;
+}
+
+.galeria p {
+  padding: 15px 0px;
+}
