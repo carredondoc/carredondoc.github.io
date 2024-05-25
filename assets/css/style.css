@@ -20,7 +20,6 @@ header {
   background-color: #043748;
   background-image: linear-gradient(to right, #043748, #0e4152);
   display: flex;
-
   align-items: center;
   padding: 20px 0px;
   width: 1400px;
@@ -379,6 +378,11 @@ display: flex;
 
 @media only screen and (max-width: 500px) {
 
+  body{
+
+    width: 500px;
+  }
+
   header {
     background-color: #043748;
     background-image: linear-gradient(to right, #043748, #0e4152);
@@ -432,13 +436,7 @@ display: flex;
     color: white;
   }
   
-  .contenidoEducacion {
-    display: flex;
-    flex-direction: column;
-    width: 450px;
-    padding: 35px;
-  }
-
+ 
   
 .containerTarjetas {
   display: flex;
@@ -469,10 +467,18 @@ margin-top: 35px;
 
 .containerViaje {
   display: flex;
-  width: 500px;
+  width: 450px;
   padding-top: 50px;
   flex-direction: column;
 }
+
+.contenidoEducacion {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  padding: 35px;
+}
+
 
 .recuadro {
   border: solid rgb(0, 174, 255) 2px;
