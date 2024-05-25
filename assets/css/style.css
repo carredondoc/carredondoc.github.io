@@ -376,11 +376,11 @@ display: flex;
 	margin-top:22px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
 
   body{
 
-    width: 500px;
+    
   }
 
   header {
