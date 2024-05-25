@@ -311,6 +311,33 @@ h4 {
   padding: 15px 0px;
 }
 
+
+.botonesWeb{
+display: flex;
+  gap: 270px;
+  padding-top: 40px;
+}
+
+.btnWeb{
+
+  background-color: rgb(0, 174, 255);
+  padding: 15px;
+  border-radius: 45px;
+  border: none;
+  cursor: pointer;
+  color: white;
+
+}
+
+.final{
+
+  display: flex;
+  padding: 25px 0px;
+}
+
+
+/* Botones Laterales */
+
 .float{
 	position:fixed;
 	width:60px;
