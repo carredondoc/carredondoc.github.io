@@ -382,8 +382,7 @@ display: flex;
   header {
     background-color: #043748;
     background-image: linear-gradient(to right, #043748, #0e4152);
-    display: flex;
-  
+    display: none;
     align-items: center;
     padding: 20px 0px;
     width: 500px;
@@ -406,7 +405,7 @@ display: flex;
   
   .hero {
     display: flex;
-    padding: 50px;
+    padding: 35px;
     width: 1400px;
     flex-direction: column;
   }
@@ -465,6 +464,7 @@ margin-top: 35px;
   display: flex;
   flex-direction: column;
   padding: 65px 0;
+  width: 500px;
 }
 
 .containerViaje {
@@ -476,10 +476,10 @@ margin-top: 35px;
 
 .recuadro {
   border: solid rgb(0, 174, 255) 2px;
-  width: 400px;
+  width: 350px;
   padding: 15px;
   margin: 15px 0;
-  height: 150px;
+  height: 180px;
 }
 
 .fecha {
@@ -513,6 +513,7 @@ margin-top: 35px;
   flex-direction: column;
   padding: 50px 0px;
   background-color: rgb(48, 48, 48);
+  width: 500px;
 }
 
 .ejemplos {
@@ -537,6 +538,11 @@ margin-top: 35px;
   padding: 15px 0px;
 }
 
+.botonesWeb{
+  display: none;
+    gap: 270px;
+    padding-top: 40px;
+  }
 
 
 
