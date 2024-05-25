@@ -75,6 +75,9 @@ ul li a:hover {
   height: 650px;
   display: flex;
 }
+
+
+
 .hero {
   display: flex;
   height: 550px;
@@ -372,4 +375,170 @@ display: flex;
 
 .miHome{
 	margin-top:22px;
+}
+
+@media only screen and (max-width: 500px) {
+
+  header {
+    background-color: #043748;
+    background-image: linear-gradient(to right, #043748, #0e4152);
+    display: flex;
+  
+    align-items: center;
+    padding: 20px 0px;
+    width: 500px;
+  }
+
+  .imgPerfil{
+
+    width: 70%;
+  }
+  
+  .imgBurbuja {
+  
+    width: 120px;
+  }
+
+  .container {
+    height: 1200px;
+    display: flex;
+  }
+  
+  .hero {
+    display: flex;
+    padding: 50px;
+    width: 1400px;
+    flex-direction: column;
+  }
+  
+  .contenidoIzquierda {
+    align-content: center;
+   
+  }
+  
+  .contenidoDerecha {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    padding-top: 100px;
+    
+   
+  }
+
+  h1 {
+    font-size: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+  }
+  
+  .contenidoEducacion {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding: 35px;
+  }
+
+  
+.containerTarjetas {
+  display: flex;
+  width: 500px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  flex-direction: column;
+}
+
+.tarjeta {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(48, 48, 48);
+  border: solid 2px rgb(255, 255, 255);
+  border-radius: 40px;
+  text-align: center;
+  align-content: center;
+
+margin-top: 35px;
+}
+
+.viaje {
+  display: flex;
+  flex-direction: column;
+  padding: 65px 0;
+}
+
+.containerViaje {
+  display: flex;
+  width: 500px;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.recuadro {
+  border: solid rgb(0, 174, 255) 2px;
+  width: 400px;
+  padding: 15px;
+  margin: 15px 0;
+  height: 150px;
+}
+
+.fecha {
+  font-size: 12px;
+
+  font-weight: 500;
+  font-style: normal;
+  color: chartreuse;
+  padding-bottom: 10px;
+}
+
+.titulo {
+  font-size: 20px;
+
+  font-weight: 700;
+
+  font-style: normal;
+  padding-bottom: 15px;
+}
+
+.descripcion {
+  font-size: 15px;
+
+  font-weight: 500;
+  font-style: normal;
+  line-height: 25px;
+}
+
+.portafolio {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+  background-color: rgb(48, 48, 48);
+}
+
+.ejemplos {
+  display: flex;
+  padding-top: 50px;
+  gap: 100px;
+  flex-direction: column;
+}
+.galeria {
+  display: flex;
+  flex-direction: column;
+  border: solid 3px rgb(0, 174, 255);
+  transition: all 0.3s ease-in-out;
+}
+
+
+.galeria img {
+  width: 250px;
+}
+
+.galeria p {
+  padding: 15px 0px;
+}
+
+
+
+
+
 }
