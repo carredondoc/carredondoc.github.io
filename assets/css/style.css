@@ -379,13 +379,15 @@ display: flex;
 @media only screen and (max-width: 550px) {
 
   body{
+    max-width: 500px;
+    margin: auto;
+    background-color: #0e4152;
 
     
   }
 
   header {
-    background-color: #043748;
-    background-image: linear-gradient(to right, #043748, #0e4152);
+  
     display: none;
     align-items: center;
     padding: 20px 0px;
@@ -410,7 +412,7 @@ display: flex;
   .hero {
     display: flex;
     padding: 35px;
-    width: 1400px;
+    width: 500px;
     flex-direction: column;
   }
   
@@ -436,7 +438,13 @@ display: flex;
     color: white;
   }
   
- 
+  .containerDatos {
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    padding: 50px 0px;
+    width: 500px;
+  }
+  
   
 .containerTarjetas {
   display: flex;
@@ -444,6 +452,7 @@ display: flex;
   padding-top: 40px;
   padding-bottom: 25px;
   flex-direction: column;
+  margin: 0;
 }
 
 .tarjeta {
@@ -549,7 +558,12 @@ margin-top: 35px;
     gap: 270px;
     padding-top: 40px;
   }
+  .final{
 
+    display: flex;
+    padding: 25px 0px;
+    width: 500px;
+  }
 
 
 
