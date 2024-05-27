@@ -10,6 +10,6 @@ No se realizó pull request. Solo Fork, clone y commits.
    ![PR 1](assets/screenshots/sc01.jpg)
 
 
-   ![PR 2](assets/scrennshots/sc02.jpg)
+   ![PR 2](assets/screenshots/sc02.jpg)
 
  
